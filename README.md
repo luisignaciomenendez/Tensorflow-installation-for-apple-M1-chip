@@ -27,7 +27,15 @@ To check that the environment was properly activated, your terminal should have 
 Also, you can check the python version (it should be 3.8) with `python -V` . If this does not output you 3.8, make sure you go to `$HOME/tensorflow-test/bin` and look for the python versions installed there. Sometimes python 3.9 is installed (it shouldn't) and might confuse your environment. 
 
 
-Then install the dependencies with conda and python pip as described in the paper. 
+Then install the dependencies with conda and python pip as described in the link:
+
+
+
+```
+python -m pip install tensorflow-macos
+python -m pip install tensorflow-metal
+conda install jupyter pandas numpy matplotlib scikit-learn
+```
 
 Another thing I used was to make sure the kernel that I use in jupyter is actually running with python 3.8. You can create a new one (making sure you are in the cd of the virtual env in your terminal) with:
 
