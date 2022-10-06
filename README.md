@@ -12,6 +12,9 @@ sh ~/Downloads/Miniforge3-MacOSX-arm64.sh
 source ~/miniforge3/bin/activate
 
 ```
+Notice that this part is esencial as you need the environment to run on arm64 architecture and not the previous one (that's how the M1 is supposed to be handled). This part can be a nightmare to get other packages to work efficiently such as pyarrow. 
+
+
 2. Make a virtual environment. Some editors ( I use Atom) have the option to build this automatically. An alternative is just to follow the guide in the link and doing it with `mkdir` or also via `conda`:
 
 
